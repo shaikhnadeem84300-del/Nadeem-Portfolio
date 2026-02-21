@@ -45,15 +45,18 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="flex gap-4 mt-6"
       >
+
         <a
-          href="/Nadeem-Resume.pdf"
-          target="_blank"
-          className="bg-blue-500 text-white px-6 py-2 rounded-lg
-          hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-500/30
-          transition-all duration-300"
-        >
-          Download CV
-        </a>
+  href="/Nadeem_Shaikh-Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download CV
+</a>
+
+
+      
+
 
         <a
           href="#contact"
